@@ -1,0 +1,16 @@
+body{
+    font-family: "Century Gothic", Verdana, sans-serif;
+}
+
+p{
+    border: 1px solid black;
+}
+
+.Paragraphe1{
+    display: inline-block;
+    width: 65%;
+}
+.Paragraphe2{
+    display: inline-block;
+    width: 30%;
+}
