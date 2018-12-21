@@ -1,16 +1,14 @@
 body{
     font-family: "Century Gothic", Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: purple;
 }
 
-p{
-    border: 1px solid black;
+h1{
+    background-color: #069;
 }
 
-.Paragraphe1{
-    display: inline-block;
-    width: 65%;
-}
-.Paragraphe2{
-    display: inline-block;
-    width: 30%;
+.div1{
+    background-color: rgba(200,200,000,1);
 }
