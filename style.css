@@ -1,14 +1,7 @@
 body{
     font-family: "Century Gothic", Verdana, sans-serif;
-    margin: 0px;
-    padding: 0px;
-    background-color: purple;
-}
-
-h1{
-    background-color: #069;
-}
-
-.div1{
-    background-color: rgba(200,200,000,1);
+    background-image: url("code-informatique.jpg"), url("matrice.jpg");
+    background-size: 25%,50%;
+    background-repeat:no-repeat, no-repeat;
+    background-position: top left, top right;
 }
