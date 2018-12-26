@@ -1,7 +1,24 @@
 body{
     font-family: "Century Gothic", Verdana, sans-serif;
-    background-image: url("code-informatique.jpg"), url("matrice.jpg");
-    background-size: 25%,50%;
-    background-repeat:no-repeat, no-repeat;
-    background-position: top left, top right;
 }
+
+.div1{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background: -webkit-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%,red);
+    background: -o-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%,red);
+    background: -moz-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%,red);
+    background: radial-gradient(closest-side at 20% 40%, blue 10%, purple 30%,red);
+}
+
+.div2{
+    float: right;
+    width: 400px;
+    height: 400px;
+    background: -webkit-radial-gradient(20% 40%, farthest-side, blue 10%, purple 30%,red );
+    background: -o-radial-gradient(20% 40%, farthest-side, blue 10%, purple 30%,red );
+    background: -moz-radial-gradient(20% 40%,farthest-side, blue 10%, purple 30%,red );
+    background: radial-gradient(farthest-side at 20% 40%, blue 10%, purple 30%,red );
+}
+
