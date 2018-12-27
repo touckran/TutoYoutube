@@ -2,23 +2,11 @@ body{
     font-family: "Century Gothic", Verdana, sans-serif;
 }
 
-.div1{
-    float: left;
-    width: 400px;
-    height: 400px;
-    background: -webkit-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%,red);
-    background: -o-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%,red);
-    background: -moz-radial-gradient(20% 40%, closest-side, blue 10%, purple 30%,red);
-    background: radial-gradient(closest-side at 20% 40%, blue 10%, purple 30%,red);
+table{
+    border-collapse: collapse;
 }
 
-.div2{
-    float: right;
-    width: 400px;
-    height: 400px;
-    background: -webkit-radial-gradient(20% 40%, farthest-side, blue 10%, purple 30%,red );
-    background: -o-radial-gradient(20% 40%, farthest-side, blue 10%, purple 30%,red );
-    background: -moz-radial-gradient(20% 40%,farthest-side, blue 10%, purple 30%,red );
-    background: radial-gradient(farthest-side at 20% 40%, blue 10%, purple 30%,red );
+td,th{
+    border: 1px solid black;
+    padding: 10px;
 }
-
