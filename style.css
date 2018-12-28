@@ -2,6 +2,21 @@ body{
     font-family: "Century Gothic", Verdana, sans-serif;
 }
 
-video{
-    height: 500px;
+h1{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Verdana, sans-serif;
+    
+    background-color: #FFF;
+    background-image: url("codecsharp.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top left;
+}
+
+p{
+    font:italic normal 16px/24px Verdana, sans-serif;
+    background: #FFF url('codecsharp.jpg') no-repeat scroll top left;
 }
