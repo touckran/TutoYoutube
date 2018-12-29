@@ -7,10 +7,14 @@
 	</head>
 	<body>
 		<h1>CSS avancé</h1>
-		<div>
-			<p>Un premier paragraphe</p>
-			<p>Un deuxieme paragraphe</p>
-			<p>Un troisieme paragraphe</p>
-		</div>
+		<form method='post' action="traitement.php">
+			<label for="Prenom">Entrez votre prénom</label>
+			<input type="text" id="Prenom" name="prenom">
+			
+			<label for="Présentation">Une présentation ?</label>
+			<textarea id="Présentation" name="Présentation"></textarea>
+			
+			<input type="submit" value=Envoyer>
+		</form>
 	</body>
 </html>
