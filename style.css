@@ -2,21 +2,17 @@ body{
     font-family: "Century Gothic", Verdana, sans-serif;
 }
 
-h1{
-    font-style: italic;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    font-family: Verdana, sans-serif;
-    
-    background-color: #FFF;
-    background-image: url("codecsharp.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: top left;
+div{
+    width: 200px;
+    height: 200px;
+    background: #06D;
+    -webkit-transition: 3s width 2s ease, 3s background 5s ease;
+    -moz-transition: 3s width 2s ease, 3s background 5s ease;
+    -o-transition: 3s width 2s ease, 3s background 5s ease;
+    transition: 3s width 2s ease, 3s background 5s ease;
 }
 
-p{
-    font:italic normal 16px/24px Verdana, sans-serif;
-    background: #FFF url('codecsharp.jpg') no-repeat scroll top left;
+div:hover{
+    width: 400px;
+    background: #A03;
 }
