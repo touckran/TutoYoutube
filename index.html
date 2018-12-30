@@ -6,14 +6,31 @@
 		<link rel="stylesheet" href="style.css"/>
 	</head>
 	<body>
-		<h1>CSS avancé</h1>
+		<h1>Les formulaire</h1>
 		<form method='post' action="traitement.php">
-			<label for="Prenom">Entrez votre prénom</label>
-			<input type="text" id="Prenom" name="prenom">
+			<fieldset id="section1">
+				<legend>Informations personnels :</legend>
+				<label for="prenom">Entrer votre prénom</label>
+				<input type="text" name="prenom" id="prenom"><br>
+				<label for="nom">Entrez votre nom</label>
+				<input type="text" name="nom" id="nom"><br>
+				<label for="pseudo">Entrer votre pseudo</label>
+				<input type="text" name="pseudo" id="pseudo"><br>
+			</fieldset>
 			
-			<label for="Présentation">Une présentation ?</label>
-			<textarea id="Présentation" name="Présentation"></textarea>
-			
+			<fieldset id="section2">
+				<legend>Informations supplémentaires :</legend>
+				Quels sont vos loisirs ?<br>
+				<input type="checkbox" name="hobbies" value="informatique" id="inf">
+				<label for="inf">Informatique</label>
+				<input type="checkbox" name="hobbies" value="sport" id="sport">
+				<label for="sport">Sport</label>
+				<input type="checkbox" name="hobbies" value="voyages" id="voyages">
+				<label for="voyages">Voyages</label>
+				<input type="checkbox" name="hobbies" value="musique" id="musique">
+				<label for="musique">Musique</label>
+			</fieldset>
+				   
 			<input type="submit" value=Envoyer>
 		</form>
 	</body>
